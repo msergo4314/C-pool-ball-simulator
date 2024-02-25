@@ -96,6 +96,7 @@ unsigned char phylib_stopped(phylib_object *object);
 void phylib_bounce(phylib_object **a, phylib_object **b);
 unsigned char phylib_rolling(phylib_table *t);
 phylib_table *phylib_segment(phylib_table *table);
+char *phylib_object_string(phylib_object *object);
 
 //helpers
 bool same_sign(double a, double b);
